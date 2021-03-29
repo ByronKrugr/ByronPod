@@ -1,0 +1,16 @@
+PODS:
+  - ByronPod (0.1.0)
+
+DEPENDENCIES:
+  - ByronPod (from `../`)
+
+EXTERNAL SOURCES:
+  ByronPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ByronPod: 655bbf067f4b94ca6834c8a4585dbe7162db2672
+
+PODFILE CHECKSUM: cf203f2ef14e54f069c935922e6b3352a6bda68e
+
+COCOAPODS: 1.10.1

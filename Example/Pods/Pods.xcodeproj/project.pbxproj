@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C2E18C261200C800DB60FC /* MyPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C2E18B261200C800DB60FC /* MyPod.swift */; };
+		2EA9E9F976CADA25C7122B3F78ED2F51 /* Pods-ByronPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3287DBD7FAE803EE96C72783FC616332 /* Pods-ByronPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C041E07BC624881E7E13CA50DB80BA2 /* ByronPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67384FB1AC978BC5DE7CAA2EED6A006A /* ByronPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E5CF206DD08E07FEB8712F56A9C0F62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		512487ED606580145903F75E2AB92852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5375B9E6EB919FB17D2CDA96CB71C976 /* Pods-ByronPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4532C2847C6E2925F2908641FFE869D /* Pods-ByronPod_Example-dummy.m */; };
+		9380EFF6BBBC6681EDEE276822DFD3DC /* ByronPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD96075FD062459D0B3A713B6E31BEC8 /* ByronPod-dummy.m */; };
+		9448B09868DCF90C530FA0B0AB94255A /* Pods-ByronPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ED0827D208BF10BB79679BFECFEBB6 /* Pods-ByronPod_Tests-dummy.m */; };
+		D1E3070802A18917E8D7CEEA6BFCCAE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB9A16959641B93D8C803F8F64353AC8 /* Pods-ByronPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B79E7B5BF13385E3D7F5E55978ED70 /* Pods-ByronPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B75DC1C992A96E416B7EDC84D12C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6BCBB878405911C0B398210CCBA7A9;
+			remoteInfo = ByronPod;
+		};
+		4A7CF30DD123EEF444B18EF0180A95A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2778D419225CDD472F26D0DE7CECFF6;
+			remoteInfo = "Pods-ByronPod_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A5A4270DA3476A3F4EF302A709237B /* Pods-ByronPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByronPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F0BD7685A2AA810AB9E13BBF71BE2F7 /* ByronPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ByronPod-prefix.pch"; sourceTree = "<group>"; };
+		10DD850FD6F91216EE41B60A3A3F334D /* ByronPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ByronPod.debug.xcconfig; sourceTree = "<group>"; };
+		122C7880588EC0B648C959CECD233CA8 /* Pods-ByronPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByronPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15854EEAE8B716DCD0707E73C2657F1B /* ByronPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ByronPod.modulemap; sourceTree = "<group>"; };
+		183673BB8219D00A0EB18F984B32DA24 /* Pods-ByronPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ByronPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		22C2E18B261200C800DB60FC /* MyPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyPod.swift; path = ByronPod/Classes/MyPod.swift; sourceTree = "<group>"; };
+		252DAB45084FD89985B82CCE39C88CBC /* Pods-ByronPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ByronPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3287DBD7FAE803EE96C72783FC616332 /* Pods-ByronPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ByronPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		398A769F1E5B80A4614930401C0D2A61 /* Pods-ByronPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ByronPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40AA832D46DE448F671E7B4E0476BB23 /* ByronPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ByronPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B576EDEFD5AF83EA6BED92A8A973573 /* Pods-ByronPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ByronPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4DF00720DE4BC7DEA3C6A0E9CA190AC4 /* ByronPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ByronPod-Info.plist"; sourceTree = "<group>"; };
+		55D30C388F162CD143796AD28AD0ED21 /* ByronPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ByronPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		57D022E6A0CC7C6A33BB5F88DCC8970D /* Pods-ByronPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByronPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67384FB1AC978BC5DE7CAA2EED6A006A /* ByronPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ByronPod-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7843B21356E8789BB35816A3E9B5ABDC /* Pods-ByronPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ByronPod_Example-Info.plist"; sourceTree = "<group>"; };
+		86BF9F8E166AF1715E2578B2A95C4257 /* Pods-ByronPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ByronPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9056AA7FE183947CCFDBD19219F8B6B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		927FFCA9EE3DD5B028732E9AC59F4C72 /* Pods-ByronPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ByronPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1B79E7B5BF13385E3D7F5E55978ED70 /* Pods-ByronPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ByronPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		B2F79056C73373FA3D01292F8A843853 /* Pods_ByronPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByronPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCD7E30EA317F6FA71834F1917874CA /* Pods-ByronPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ByronPod_Tests-Info.plist"; sourceTree = "<group>"; };
+		C8ED0827D208BF10BB79679BFECFEBB6 /* Pods-ByronPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ByronPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		D2DA371CBD3A19514AADD965EAD53801 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E5E5313AA9750A8A30EA5F0DD14435BD /* Pods_ByronPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByronPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB15773E2B683471ADB3A984FB541E0 /* Pods-ByronPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ByronPod_Example.modulemap"; sourceTree = "<group>"; };
+		F4532C2847C6E2925F2908641FFE869D /* Pods-ByronPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ByronPod_Example-dummy.m"; sourceTree = "<group>"; };
+		F9909A311CCA73B2512723324DCA4C21 /* Pods-ByronPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ByronPod_Tests.modulemap"; sourceTree = "<group>"; };
+		FD5D27B22B8B3D9EE3E1CC1D797581BD /* ByronPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ByronPod.release.xcconfig; sourceTree = "<group>"; };
+		FD96075FD062459D0B3A713B6E31BEC8 /* ByronPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ByronPod-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FBA60C8F5FD96F121AF38997DA0EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5CF206DD08E07FEB8712F56A9C0F62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD2728FD3A4269592BA0476BAAC3F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512487ED606580145903F75E2AB92852 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE228B4070E0181D029BEAC64CB7D11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E3070802A18917E8D7CEEA6BFCCAE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172C4BEBF5D27DF2E6E2C524C6EB6F42 /* Pods-ByronPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ECB15773E2B683471ADB3A984FB541E0 /* Pods-ByronPod_Example.modulemap */,
+				252DAB45084FD89985B82CCE39C88CBC /* Pods-ByronPod_Example-acknowledgements.markdown */,
+				927FFCA9EE3DD5B028732E9AC59F4C72 /* Pods-ByronPod_Example-acknowledgements.plist */,
+				F4532C2847C6E2925F2908641FFE869D /* Pods-ByronPod_Example-dummy.m */,
+				183673BB8219D00A0EB18F984B32DA24 /* Pods-ByronPod_Example-frameworks.sh */,
+				7843B21356E8789BB35816A3E9B5ABDC /* Pods-ByronPod_Example-Info.plist */,
+				B1B79E7B5BF13385E3D7F5E55978ED70 /* Pods-ByronPod_Example-umbrella.h */,
+				57D022E6A0CC7C6A33BB5F88DCC8970D /* Pods-ByronPod_Example.debug.xcconfig */,
+				122C7880588EC0B648C959CECD233CA8 /* Pods-ByronPod_Example.release.xcconfig */,
+			);
+			name = "Pods-ByronPod_Example";
+			path = "Target Support Files/Pods-ByronPod_Example";
+			sourceTree = "<group>";
+		};
+		2038E3F0EB2663406D4145329149E2CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				172C4BEBF5D27DF2E6E2C524C6EB6F42 /* Pods-ByronPod_Example */,
+				C69160EC893CEED975AA927BC7CD4998 /* Pods-ByronPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51A69B07C4C1256F5E1FA2DB7F05CAEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				55D30C388F162CD143796AD28AD0ED21 /* ByronPod.podspec */,
+				9056AA7FE183947CCFDBD19219F8B6B9 /* LICENSE */,
+				D2DA371CBD3A19514AADD965EAD53801 /* README.md */,
+				22C2E18B261200C800DB60FC /* MyPod.swift */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AE5D7AF2C5615947D88AE2D2667EDF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15854EEAE8B716DCD0707E73C2657F1B /* ByronPod.modulemap */,
+				FD96075FD062459D0B3A713B6E31BEC8 /* ByronPod-dummy.m */,
+				4DF00720DE4BC7DEA3C6A0E9CA190AC4 /* ByronPod-Info.plist */,
+				0F0BD7685A2AA810AB9E13BBF71BE2F7 /* ByronPod-prefix.pch */,
+				67384FB1AC978BC5DE7CAA2EED6A006A /* ByronPod-umbrella.h */,
+				10DD850FD6F91216EE41B60A3A3F334D /* ByronPod.debug.xcconfig */,
+				FD5D27B22B8B3D9EE3E1CC1D797581BD /* ByronPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ByronPod";
+			sourceTree = "<group>";
+		};
+		64C527C3E854C3BB3F2D6AFC1335B363 /* ByronPod */ = {
+			isa = PBXGroup;
+			children = (
+				51A69B07C4C1256F5E1FA2DB7F05CAEA /* Pod */,
+				5AE5D7AF2C5615947D88AE2D2667EDF8 /* Support Files */,
+			);
+			name = ByronPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		677DE6F03D65E97EDA40936A5037C87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40AA832D46DE448F671E7B4E0476BB23 /* ByronPod.framework */,
+				E5E5313AA9750A8A30EA5F0DD14435BD /* Pods_ByronPod_Example.framework */,
+				B2F79056C73373FA3D01292F8A843853 /* Pods_ByronPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD611FA3098C179DE13231C5E8B3F3B6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64C527C3E854C3BB3F2D6AFC1335B363 /* ByronPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C69160EC893CEED975AA927BC7CD4998 /* Pods-ByronPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F9909A311CCA73B2512723324DCA4C21 /* Pods-ByronPod_Tests.modulemap */,
+				398A769F1E5B80A4614930401C0D2A61 /* Pods-ByronPod_Tests-acknowledgements.markdown */,
+				4B576EDEFD5AF83EA6BED92A8A973573 /* Pods-ByronPod_Tests-acknowledgements.plist */,
+				C8ED0827D208BF10BB79679BFECFEBB6 /* Pods-ByronPod_Tests-dummy.m */,
+				BFCD7E30EA317F6FA71834F1917874CA /* Pods-ByronPod_Tests-Info.plist */,
+				3287DBD7FAE803EE96C72783FC616332 /* Pods-ByronPod_Tests-umbrella.h */,
+				01A5A4270DA3476A3F4EF302A709237B /* Pods-ByronPod_Tests.debug.xcconfig */,
+				86BF9F8E166AF1715E2578B2A95C4257 /* Pods-ByronPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-ByronPod_Tests";
+			path = "Target Support Files/Pods-ByronPod_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BD611FA3098C179DE13231C5E8B3F3B6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				677DE6F03D65E97EDA40936A5037C87F /* Products */,
+				2038E3F0EB2663406D4145329149E2CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		314CF644BBCF7D3D1BD1F07545CDF6DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA9E9F976CADA25C7122B3F78ED2F51 /* Pods-ByronPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2334028B2F7BDE479CF40185A3EE325 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9A16959641B93D8C803F8F64353AC8 /* Pods-ByronPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4FF0911114C2E568DB2170589CF50D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C041E07BC624881E7E13CA50DB80BA2 /* ByronPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B73EEF9B3329417DE0A187937C3AF74 /* Pods-ByronPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF269945D4A4C082A3886754649BD29 /* Build configuration list for PBXNativeTarget "Pods-ByronPod_Tests" */;
+			buildPhases = (
+				314CF644BBCF7D3D1BD1F07545CDF6DA /* Headers */,
+				61F1EC8D634A5A936063468F08BA88FC /* Sources */,
+				3BD2728FD3A4269592BA0476BAAC3F05 /* Frameworks */,
+				C48286B5C8DAE6A9F22D44A4E46C92CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FDF5A6C0DCEDC34DA4A053EAB4465FD /* PBXTargetDependency */,
+			);
+			name = "Pods-ByronPod_Tests";
+			productName = "Pods-ByronPod_Tests";
+			productReference = B2F79056C73373FA3D01292F8A843853 /* Pods_ByronPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C6BCBB878405911C0B398210CCBA7A9 /* ByronPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10789460833E7F9435EAE41D2879D30 /* Build configuration list for PBXNativeTarget "ByronPod" */;
+			buildPhases = (
+				FA4FF0911114C2E568DB2170589CF50D /* Headers */,
+				18DD2D0E1B889AFC782C3A4085C1620E /* Sources */,
+				04FBA60C8F5FD96F121AF38997DA0EA1 /* Frameworks */,
+				8C563A297BA611F75A2B249A3B248AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ByronPod;
+			productName = ByronPod;
+			productReference = 40AA832D46DE448F671E7B4E0476BB23 /* ByronPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2778D419225CDD472F26D0DE7CECFF6 /* Pods-ByronPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05BA7366BCF0FADED233030C657D3A2 /* Build configuration list for PBXNativeTarget "Pods-ByronPod_Example" */;
+			buildPhases = (
+				B2334028B2F7BDE479CF40185A3EE325 /* Headers */,
+				6E43CBB983E4C6420CCC059F2371BDDC /* Sources */,
+				9AE228B4070E0181D029BEAC64CB7D11 /* Frameworks */,
+				B03BD59EB6307B553B2AF2F77BF2B141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55610122C5DE694E1D69DD3FE59314ED /* PBXTargetDependency */,
+			);
+			name = "Pods-ByronPod_Example";
+			productName = "Pods-ByronPod_Example";
+			productReference = E5E5313AA9750A8A30EA5F0DD14435BD /* Pods_ByronPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					6C6BCBB878405911C0B398210CCBA7A9 = {
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 677DE6F03D65E97EDA40936A5037C87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C6BCBB878405911C0B398210CCBA7A9 /* ByronPod */,
+				D2778D419225CDD472F26D0DE7CECFF6 /* Pods-ByronPod_Example */,
+				1B73EEF9B3329417DE0A187937C3AF74 /* Pods-ByronPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C563A297BA611F75A2B249A3B248AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B03BD59EB6307B553B2AF2F77BF2B141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48286B5C8DAE6A9F22D44A4E46C92CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DD2D0E1B889AFC782C3A4085C1620E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9380EFF6BBBC6681EDEE276822DFD3DC /* ByronPod-dummy.m in Sources */,
+				22C2E18C261200C800DB60FC /* MyPod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F1EC8D634A5A936063468F08BA88FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9448B09868DCF90C530FA0B0AB94255A /* Pods-ByronPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E43CBB983E4C6420CCC059F2371BDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5375B9E6EB919FB17D2CDA96CB71C976 /* Pods-ByronPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FDF5A6C0DCEDC34DA4A053EAB4465FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ByronPod_Example";
+			target = D2778D419225CDD472F26D0DE7CECFF6 /* Pods-ByronPod_Example */;
+			targetProxy = 4A7CF30DD123EEF444B18EF0180A95A5 /* PBXContainerItemProxy */;
+		};
+		55610122C5DE694E1D69DD3FE59314ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ByronPod;
+			target = 6C6BCBB878405911C0B398210CCBA7A9 /* ByronPod */;
+			targetProxy = 02B75DC1C992A96E416B7EDC84D12C5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		70079F355EACD75AE1976EA60E9C50D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A5A4270DA3476A3F4EF302A709237B /* Pods-ByronPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ByronPod_Tests/Pods-ByronPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ByronPod_Tests/Pods-ByronPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75C0136DCF584B520EED8B12DD85DD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122C7880588EC0B648C959CECD233CA8 /* Pods-ByronPod_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ByronPod_Example/Pods-ByronPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ByronPod_Example/Pods-ByronPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B9EA5F7347BB61F47AF03C4DCE1D57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10DD850FD6F91216EE41B60A3A3F334D /* ByronPod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ByronPod/ByronPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ByronPod/ByronPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ByronPod/ByronPod.modulemap";
+				PRODUCT_MODULE_NAME = ByronPod;
+				PRODUCT_NAME = ByronPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4C309584B908E2EE3E41F875FA0C1CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D022E6A0CC7C6A33BB5F88DCC8970D /* Pods-ByronPod_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ByronPod_Example/Pods-ByronPod_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ByronPod_Example/Pods-ByronPod_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1D72F49A85D2DDA90BC3E8C3BC0A23D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BF9F8E166AF1715E2578B2A95C4257 /* Pods-ByronPod_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ByronPod_Tests/Pods-ByronPod_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ByronPod_Tests/Pods-ByronPod_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF9A6A18CD03337F72039A287E5A9596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5D27B22B8B3D9EE3E1CC1D797581BD /* ByronPod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ByronPod/ByronPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ByronPod/ByronPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ByronPod/ByronPod.modulemap";
+				PRODUCT_MODULE_NAME = ByronPod;
+				PRODUCT_NAME = ByronPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF269945D4A4C082A3886754649BD29 /* Build configuration list for PBXNativeTarget "Pods-ByronPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70079F355EACD75AE1976EA60E9C50D5 /* Debug */,
+				C1D72F49A85D2DDA90BC3E8C3BC0A23D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05BA7366BCF0FADED233030C657D3A2 /* Build configuration list for PBXNativeTarget "Pods-ByronPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C309584B908E2EE3E41F875FA0C1CF /* Debug */,
+				75C0136DCF584B520EED8B12DD85DD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10789460833E7F9435EAE41D2879D30 /* Build configuration list for PBXNativeTarget "ByronPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B9EA5F7347BB61F47AF03C4DCE1D57A /* Debug */,
+				DF9A6A18CD03337F72039A287E5A9596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

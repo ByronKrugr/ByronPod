@@ -1,0 +1,6 @@
+framework module Pods_ByronPod_Example {
+  umbrella header "Pods-ByronPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
